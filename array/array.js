@@ -121,3 +121,4 @@ console.log(name) // [ "name", "john,doe"]
 var title = ["my", "first", "experience", "as", "programmer"] 
 var slug = title.join("-")
 console.log(slug) // "my-first-experience-as-programmer"
+
