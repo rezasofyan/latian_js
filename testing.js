@@ -1,5 +1,8 @@
-function tampilkanAngka(angkaPertama, angkaKedua) {
-    return angkaPertama + angkaKedua
-  }
-   
-  console.log(tampilkanAngka(5, 3))
+
+var namaMurid = {
+  namaDepan:'Reza',
+  namaBelakang:'Sofyan'
+};
+
+const{namaDepan,namaBelakang}=namaMurid
+console.log(namaBelakang)
