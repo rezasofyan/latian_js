@@ -1,8 +1,6 @@
 
-var namaMurid = {
-  namaDepan:'Reza',
-  namaBelakang:'Sofyan'
-};
+function Buku(...rest){
+    console.log("Saya membeli : " + rest)
+}
 
-const{namaDepan,namaBelakang}=namaMurid
-console.log(namaBelakang)
+Buku('HTML', 'PHP', 'ANGULAR', 'REACT');
